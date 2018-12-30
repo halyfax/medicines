@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+
+
+    h1= titles
+ul
+
+  li
+    a(href="/registrarse")  REGISTRARSE 
+    |         
+  li
+    a(href="/ingresar")  INGRESAR 
+    |
+  li
+    a(href="/app/imagenes")  mis imagenes 
+    |
+
+  
+    body
+
+
+    block content
+      
+    img.portada(src='http://localhost:3000/images/foto.jpg ', width='1000',height = '500',background-size= 'cover',padding= '20px',position= 'relative' ) 
+    footer
+    .container
+      p
+      | &copy; 2018 |
+      i.fa.fa-github(aria-hidden='true') &nbsp;
+      a(href='#') View Source
